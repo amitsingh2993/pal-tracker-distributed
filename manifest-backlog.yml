@@ -2,7 +2,7 @@ applications:
 - name: tracker-backlog
   path: ./applications/backlog-server/build/libs/backlog-server.jar
   routes:
-  - route: backlog-pal-amit-singh-v1.apps.chicken.pal.cfapps.io
+  - route: backlog-pal-amit-singh-v1.cfapps.io
   memory: 1G
   instances: 1
   env:
